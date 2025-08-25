@@ -1,30 +1,57 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <div id="app">
+    <NavBar />
+
+    <!-- Full-width sections -->
+    <main class="page-wrapper">
+      <About />
+      <Services />
+      <Contacts />
+      <GetInTouch />
+    </main>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<script lang="ts" setup>
+import NavBar from './components/NavBar.vue'
+//import About from './components/About.vue'
+import Services from './components/Services.vue'
+//import Contacts from './components/Contacts.vue'
+//import GetInTouch from './components/GetInTouch.vue'
+</script>
+
+<style>
+/* Reset & global rules */
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+html {
+  scroll-behavior: smooth; /* smooth scroll */
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main wrapper for sections */
+.page-wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Each section fills full width, min 100vh */
+.page-wrapper > section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 40px;
+  box-sizing: border-box;
 }
 </style>
