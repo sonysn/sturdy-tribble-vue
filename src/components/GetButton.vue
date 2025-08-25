@@ -1,6 +1,8 @@
 <script setup lang="ts"></script>
 <template>
-  <button>Get in Touch</button>
+  <section id="getintouch">
+    <button>Get in Touch</button>
+  </section>
 </template>
 
 <style>

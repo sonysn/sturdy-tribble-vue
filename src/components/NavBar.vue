@@ -5,9 +5,9 @@
       <ul class="nav-list">
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#services" class="nav-link">Services</a></li>
-        <li><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li><a href="#contact" class="nav-link">Contacts</a></li>
         <li>
-          <a href="#get-in-touch" class="nav-button">Get in Touch</a>
+          <a href="#getintouch" class="nav-button">Get in Touch</a>
         </li>
       </ul>
     </nav>

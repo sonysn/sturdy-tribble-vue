@@ -6,21 +6,21 @@
     <main class="page-wrapper">
       <About />
       <Services />
-      <Contacts />
-      <GetInTouch />
+      <Contact />
+      <GetButton />
     </main>
   </div>
 </template>
 
 <script lang="ts" setup>
 import NavBar from './components/NavBar.vue'
-//import About from './components/About.vue'
+import About from './components/About.vue'
 import Services from './components/Services.vue'
-//import Contacts from './components/Contacts.vue'
-//import GetInTouch from './components/GetInTouch.vue'
+import Contact from './components/Contact.vue'
+import GetButton from './components/GetButton.vue'
 </script>
 
-<style>
+<!-- <style>
 /* Reset & global rules */
 html, body, #app {
   margin: 0;
@@ -54,4 +54,4 @@ html {
   padding: 60px 40px;
   box-sizing: border-box;
 }
-</style>
+</style> -->

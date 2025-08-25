@@ -1,6 +1,6 @@
-<!-- <script setup lang="ts">
+<script setup lang="ts">
 import { BriefcaseBusiness, CircleDollarSign, File, Mic, MonitorPlay } from "lucide-vue-next";
-import ServiceCard from "./DanServiceCard.vue";
+import DanServiceCard from "./DanServiceCard.vue";
 
 const ServiceCardInfo = [
   {
@@ -42,7 +42,7 @@ const ServiceCardInfo = [
         :title="item.title"
         :desc="item.desc"
       />
-    </div>
+  </div>
   </div>
 </template>
 
@@ -55,4 +55,4 @@ const ServiceCardInfo = [
 .services {
   margin-top: 1rem;
 }
-</style> -->
+</style>

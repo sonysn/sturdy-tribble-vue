@@ -2,28 +2,31 @@
 import { Linkedin, Mail, Twitter } from "lucide-vue-next";
 </script>
 <template>
-  <div :class="$style.contact">
-    <h1>Contact</h1>
-    <p>
-      Connect with Tosin Shokumbi on social media or reach out directly for
-      inquiries.
-    </p>
-    <ul>
-      <li>
-        <a href="#"><Twitter /> </a>
-        <div>Twitter</div>
-      </li>
-      <li>
-        <a href="#"><Linkedin /></a>
-        <div>Linkedin</div>
-      </li>
-      <li>
-        <a href="#"><Mail /></a>
-        <div>Email</div>
-      </li>
-    </ul>
-  </div>
-</template>
+  <section id="contact">
+
+    <div :class="$style.contact">
+      <h1>Contact</h1>
+      <p>
+        Connect with Tosin Shokumbi on social media or reach out directly for
+        inquiries.
+      </p>
+      <ul>
+        <li>
+          <a href="#"><Twitter /> </a>
+          <div>Twitter</div>
+        </li>
+        <li>
+          <a href="#"><Linkedin /></a>
+          <div>Linkedin</div>
+        </li>
+        <li>
+          <a href="#"><Mail /></a>
+          <div>Email</div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  </template>
 
 <style module>
 .contact {
