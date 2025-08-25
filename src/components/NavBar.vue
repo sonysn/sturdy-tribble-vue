@@ -41,7 +41,7 @@
 }
 
 .nav-link {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   text-decoration: none;
   color: black;
@@ -55,7 +55,7 @@
 .nav-button {
   background-color: #1a73e8;
   color: white;
-  padding: 8px 16px;
+  padding: 20px 16px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;

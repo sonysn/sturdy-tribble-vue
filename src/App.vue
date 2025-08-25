@@ -20,15 +20,8 @@ import Contact from './components/Contact.vue'
 import GetButton from './components/GetButton.vue'
 </script>
 
-<!-- <style>
+<style>
 /* Reset & global rules */
-html, body, #app {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
 html {
   scroll-behavior: smooth; /* smooth scroll */
 }
@@ -46,12 +39,8 @@ html {
   display: flex;
   flex-direction: column;
 }
-
-/* Each section fills full width, min 100vh */
-.page-wrapper > section {
-  width: 100%;
-  min-height: 100vh;
-  padding: 60px 40px;
-  box-sizing: border-box;
+section[id] {
+  scroll-margin-top: 100px; /* same or slightly larger than navbar height */
 }
-</style> -->
+
+</style>
