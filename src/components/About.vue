@@ -7,8 +7,7 @@
         Tosin Shokumbi is a seasoned Chartered Accountant with over 10 years of
         experience in financial management, auditing, and tax advisory. She is
         also a certified Digital Skills Trainer, empowering individuals and
-        businesses with the knowledge to thrive in the digital age. As an
-        entrepreneur, Tosin has successfully launched and managed several
+        businesses with the knowledge to thrive in the digitaged several
         ventures, demonstrating her business acumen and leadership skills. Her
         mission is to provide top-notch financial and digital solutions,
         fostering growth and success for her clients.
