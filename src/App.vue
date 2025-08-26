@@ -13,11 +13,11 @@
 </template>
 
 <script lang="ts" setup>
-import NavBar from './components/NavBar.vue'
-import About from './components/About.vue'
-import Services from './components/Services.vue'
-import Contact from './components/Contact.vue'
-import GetButton from './components/GetButton.vue'
+import NavBar from "./components/NavBar.vue";
+import About from "./components/About.vue";
+import Services from "./components/Services.vue";
+import Contact from "./components/Contact.vue";
+import GetButton from "./components/GetButton.vue";
 </script>
 
 <style>
@@ -38,9 +38,9 @@ html {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 88px;
 }
 section[id] {
   scroll-margin-top: 100px; /* same or slightly larger than navbar height */
 }
-
 </style>

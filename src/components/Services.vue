@@ -26,7 +26,13 @@
 </template>
 
 <script setup lang="ts">
-import { BriefcaseBusiness, CircleDollarSign, File, Mic, MonitorPlay } from "lucide-vue-next";
+import {
+  BriefcaseBusiness,
+  CircleDollarSign,
+  File,
+  Mic,
+  MonitorPlay,
+} from "lucide-vue-next";
 import DanServiceCard from "./DanServiceCard.vue";
 
 const services = [
@@ -62,7 +68,7 @@ const services = [
 .title {
   font-size: 2.5rem;
   margin-bottom: 15px;
-  color: #1a73e8;
+  color: white;
   text-align: left;
 }
 
@@ -94,7 +100,7 @@ const services = [
 .service-card h2 {
   margin: 10px 0;
   font-size: 1.3rem;
-  color: #1a73e8;
+  color: black;
 }
 .service-card p {
   font-size: 1rem;
@@ -104,12 +110,18 @@ const services = [
 
 /* Responsive grid */
 @media (max-width: 1200px) {
-  .services-grid { grid-template-columns: repeat(3, 1fr); }
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (max-width: 768px) {
-  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 480px) {
-  .services-grid { grid-template-columns: 1fr; }
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

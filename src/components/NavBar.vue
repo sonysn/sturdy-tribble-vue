@@ -25,10 +25,13 @@
   position: fixed;
   top: 0;
   right: 0;
-  padding: 16px;
+  padding: 10px;
   background-color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   z-index: 1000;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .nav-list {
@@ -46,6 +49,7 @@
   text-decoration: none;
   color: black;
   transition: color 0.3s;
+  background-color: transparent;
 }
 
 .nav-link:hover {
@@ -54,12 +58,14 @@
 
 .nav-button {
   background-color: #1a73e8;
+  width: max-content;
   color: white;
-  padding: 20px 16px;
+  padding: 5px 8px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 500;
   transition: background-color 0.3s;
+  margin-bottom: 0;
 }
 
 .nav-button:hover {
