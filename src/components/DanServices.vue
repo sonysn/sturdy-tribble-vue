@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { BriefcaseBusiness, CircleDollarSign, File, Mic, MonitorPlay } from "lucide-vue-next";
-import DanServiceCard from "./DanServiceCard.vue";
 
 const ServiceCardInfo = [
   {

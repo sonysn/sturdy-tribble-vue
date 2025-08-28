@@ -4,6 +4,7 @@
 
     
     <main class="page-wrapper">
+      <hero-section />
       <About />
       <Services />
       <Contact />
@@ -14,6 +15,7 @@
 
 <script lang="ts" setup>
 import NavBar from "./components/NavBar.vue";
+import HeroSection from "./components/HeroSection.vue";
 import About from "./components/About.vue";
 import Services from "./components/Services.vue";
 import Contact from "./components/Contact.vue";
