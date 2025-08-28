@@ -2,7 +2,7 @@
   <div id="app">
     <NavBar />
 
-    <!-- Full-width sections -->
+    
     <main class="page-wrapper">
       <About />
       <Services />
@@ -21,7 +21,7 @@ import GetButton from "./components/GetButton.vue";
 </script>
 
 <style>
-/* Reset & global rules */
+
 html {
   scroll-behavior: smooth; /* smooth scroll */
 }
